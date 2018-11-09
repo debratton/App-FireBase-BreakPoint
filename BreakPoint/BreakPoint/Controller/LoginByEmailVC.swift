@@ -40,7 +40,7 @@ class LoginByEmailVC: UIViewController {
                             if success {
                                 AuthService.instance.loginUser(withEmail: email, andPassword: password, loginComplete: { (success, nil) in
                                     print("Success Registering User")
-                                    //self.dismiss(animated: true, completion: nil)
+                                    self.dismiss(animated: true, completion: nil)
                                 })
                             } else {
                                 print("Error Registering User: \(String(describing: error?.localizedDescription))")
