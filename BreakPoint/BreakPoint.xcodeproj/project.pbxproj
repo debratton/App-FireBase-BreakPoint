@@ -28,6 +28,10 @@
 		90CA840221961A56002785C3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA840121961A56002785C3 /* Message.swift */; };
 		90CA840421963C01002785C3 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA840321963C01002785C3 /* CreateGroupsVC.swift */; };
 		90CA840621964466002785C3 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA840521964466002785C3 /* UserCell.swift */; };
+		90CA840821974545002785C3 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA840721974545002785C3 /* GroupCell.swift */; };
+		90CA840A21974DB2002785C3 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA840921974DB2002785C3 /* Group.swift */; };
+		90CA840E21975F4B002785C3 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA840D21975F4B002785C3 /* GroupFeedCell.swift */; };
+		90CA841021975F9C002785C3 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA840F21975F9C002785C3 /* GroupFeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		90CA840121961A56002785C3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		90CA840321963C01002785C3 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		90CA840521964466002785C3 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		90CA840721974545002785C3 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		90CA840921974DB2002785C3 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		90CA840D21975F4B002785C3 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		90CA840F21975F9C002785C3 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		C82858376903A13422F679C0 /* Pods-BreakPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.release.xcconfig"; sourceTree = "<group>"; };
 		D90222625E631627C6D3BA16 /* Pods_BreakPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +132,7 @@
 				90CA83F92195E5A6002785C3 /* MeVC.swift */,
 				90CA83FB2195FABF002785C3 /* CreatePostVC.swift */,
 				90CA840321963C01002785C3 /* CreateGroupsVC.swift */,
+				90CA840F21975F9C002785C3 /* GroupFeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -135,6 +144,8 @@
 				90CA83F52194DE6D002785C3 /* ShadowView.swift */,
 				90CA83FF219612C3002785C3 /* FeedCell.swift */,
 				90CA840521964466002785C3 /* UserCell.swift */,
+				90CA840721974545002785C3 /* GroupCell.swift */,
+				90CA840D21975F4B002785C3 /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				90CA840121961A56002785C3 /* Message.swift */,
+				90CA840921974DB2002785C3 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,11 +307,15 @@
 				90CA83FE21960230002785C3 /* UIViewExt.swift in Sources */,
 				90CA8400219612C3002785C3 /* FeedCell.swift in Sources */,
 				90CA83FA2195E5A6002785C3 /* MeVC.swift in Sources */,
+				90CA840821974545002785C3 /* GroupCell.swift in Sources */,
 				90CA83D72194B1F5002785C3 /* GroupsVC.swift in Sources */,
 				90CA83D32194B1F5002785C3 /* AppDelegate.swift in Sources */,
+				90CA841021975F9C002785C3 /* GroupFeedVC.swift in Sources */,
+				90CA840E21975F4B002785C3 /* GroupFeedCell.swift in Sources */,
 				90CA83F22194CEF1002785C3 /* LoginByEmailVC.swift in Sources */,
 				90CA83F82194E029002785C3 /* AuthService.swift in Sources */,
 				90CA840421963C01002785C3 /* CreateGroupsVC.swift in Sources */,
+				90CA840A21974DB2002785C3 /* Group.swift in Sources */,
 				90CA840621964466002785C3 /* UserCell.swift in Sources */,
 				90CA83D52194B1F5002785C3 /* FeedVC.swift in Sources */,
 				90CA83F62194DE6D002785C3 /* ShadowView.swift in Sources */,
